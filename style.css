@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #f1f2f4;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 40px;
+}
+
+.nav__title {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    gap: 16px;
+    padding: 10px;
+    transition: 500ms;
+}
+
+.nav__title:hover {
+    transform: scale(1.05);
+}
+
+#navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    padding: 20px;
+    align-self: center;
+    text-decoration: none;
+    gap: 36px;
+    color: black;
+}
+
+.nav__button {
+    background-color: #b2c5e5;
+    padding: #b2c5e5;
+    height: 40px;
+    color: black;
+}
+
+.hero__section__div {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAYKFRxdYXCyZt_R25M0l0iIeR5scEOFHZlpc8u9OgTxrFXOc3-Pao9oAmpyvRDmWm12RBnkIPmO5cO2VwlIcoxfm77ZkIxQqOTxF66kOCh4g8oq1D4Vp26xNa0Xqliv8jsOsfBUCDtH8doz2Rq-AUG4kMMh88mxlR9E6xCavVU3rcf0jU5VF3YYVThsHTLtcuLwnZXh4_QIeX-9hPy6lTJTcz0xLX3-WITTdYMESn1XfVbay2yEy4r1p-CP_5UdkMlG2cjR57_ueY);
+    background-repeat: no-repeat;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+
+
+.footer__div {
+    background-color: #FFFFFF;
+    color: #6a7281;
+    padding: 40px 20px;
+}
+
+.footer__div {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding: 20px;
+}
+
+.footer__nav {
+    padding: 20px;
+    align-self: center;
+    text-decoration: none;
+    gap: 36px;
+    color: #6a7281;
+}
+
+.copyright {
+    align-self: center;
+    text-decoration: none;
+    gap: 36px;
+    color: #6a7281;
+}
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* main{
+    background-color: #FFFFFF;
+}
+
+.servises__title{
+    font-size: large;
+    padding: 10px;
+}
+.card{
+    display: flex;
+}
+.web__design__image{
+    border: none;
+    border-radius: 10px;
+    justify-items: left; */
