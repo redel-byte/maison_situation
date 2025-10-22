@@ -3,26 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+html{
+    font-size: 10px;
+}
 header {
     height: 60px;
     background: #FFFFFF;
     border: 1px solid #f1f2f4;
+    font-size: 1.5rem;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 12px 40px;
-}
-
-.nav__title {
-    text-decoration: none;
-    color: black;
-    font-size: large;
-    gap: 16px;
-    padding: 10px;
-    transition: 500ms;
+    padding: 1.2rem 4rem;
 }
 
 .nav__title:hover {
@@ -49,16 +43,94 @@ nav {
     color: black;
 }
 
-.hero__section__div {
+.hero__section {
     background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAYKFRxdYXCyZt_R25M0l0iIeR5scEOFHZlpc8u9OgTxrFXOc3-Pao9oAmpyvRDmWm12RBnkIPmO5cO2VwlIcoxfm77ZkIxQqOTxF66kOCh4g8oq1D4Vp26xNa0Xqliv8jsOsfBUCDtH8doz2Rq-AUG4kMMh88mxlR9E6xCavVU3rcf0jU5VF3YYVThsHTLtcuLwnZXh4_QIeX-9hPy6lTJTcz0xLX3-WITTdYMESn1XfVbay2yEy4r1p-CP_5UdkMlG2cjR57_ueY);
+    background-size:cover;
+    background-position: center;
     background-repeat: no-repeat;
-    width: 100vh;
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-self: center;
+    color: white;
+    justify-content: center;
+    align-items:center;
+    width: 110rem;
+    height: 48rem;
+    margin: auto;
+    border-radius: 5rem;
+    margin-top:5rem;
+}
+.hero__section__div{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+.hero__section__title{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 4.8rem;
+}
+.hero__section__text{
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0 0 4rem;
+}
+.view__button{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 0.6rem;
+    border-radius:0.5rem;
+    width: 10rem;
+    background-color: #b2c5e5;
+    border:none;
+    text-decoration: none;
 }
 
+.informations{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6rem;
+}
+
+.section__titles{
+    font-size: 2.34rem;
+}
+.text{
+    font-size: 2rem;
+}
+
+
+.servises__title{
+    font-size: 2.34rem;
+    text-align: left;
+    padding: 6rem;
+}
+
+.web__design{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:1rem
+}
+img{
+    width: 30rem;
+    height: 20rem;
+    border: none;
+    border-radius: 5rem;
+}
+
+.web__design__title {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.web__design__text{
+    font-size: 2rem;
+}
 
 
 .footer__div {
@@ -78,36 +150,26 @@ nav {
     padding: 20px;
     align-self: center;
     text-decoration: none;
-    gap: 36px;
+    font-size: 1.5rem;
     color: #6a7281;
 }
 
 .copyright {
     align-self: center;
     text-decoration: none;
-    gap: 36px;
+    font-size: 1.5rem;
     color: #6a7281;
 }
 
-
-
-.card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+img{
+    max-width: 100%;
 }
-/* main{
-    background-color: #FFFFFF;
+@media (max-width: 768px){
+    body{
+        font-size:14px;
+    }
+    nav{
+        flex-direction:column;
+        align-items: center;
+    }
 }
-
-.servises__title{
-    font-size: large;
-    padding: 10px;
-}
-.card{
-    display: flex;
-}
-.web__design__image{
-    border: none;
-    border-radius: 10px;
-    justify-items: left; */
